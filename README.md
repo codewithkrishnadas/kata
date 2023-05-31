@@ -6,7 +6,7 @@
 ## Description
 
 <p> Some coding Practice to learn how to write test and some simple caluculations in typescript </p>
-<p> we hve one controller named `kata.controller` and a test named `kata.controller.spec` , initially you will have all test <strong style="color:red">failed<strong>, and what you have to do is to make test <strong style="color:green">passed </strong> </p>
+<p> we hve one controller named `kata.controller` and a test named `kata.controller.spec` , initially you will have all test <span style="color:red;">failed</span>, and what you have to do is to make test <span style="color:green;">passed </span> </p>
 
 ## Installation
 
