@@ -15,19 +15,19 @@ describe('AppController', () => {
 
   describe('step -- 1 ', () => {
     it('add "" should be 0', () => {
-      expect(appController.add()).toBe(0);
+      expect(appController.add("")).toBe(0);
     });
 
     it('add "1" should be 1', () => {
-      expect(appController.add()).toBe(1);
+      expect(appController.add("1")).toBe(1);
     });
 
     it('add "1,2" should be 1', () => {
-      expect(appController.add()).toBe(3);
+      expect(appController.add("1,2")).toBe(3);
     });
 
     it('add "1, 2" should be 1', () => {
-      expect(appController.add()).toBe(3);
+      expect(appController.add(1, 2)).toBe(3);
     });
 
   });
