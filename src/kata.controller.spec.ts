@@ -29,6 +29,14 @@ describe('AppController', () => {
     it('add "1, 2" should be 1', () => {
       expect(appController.add("1, 2")).toBe(3);
     });
+  });
+  describe('step -- 2 ', () => {
 
+    it('manage with -ve values', () => {
+      expect(appController.add("-1, 2")).toBe(1);
+    });
+    it('if we have any charector other than , it should return undefined', () => {
+      expect(appController.add("1, 2/")).toBe(undefined);
+    });
   });
 });
