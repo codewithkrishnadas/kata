@@ -31,12 +31,22 @@ describe('AppController', () => {
     });
   });
   describe('step -- 2 ', () => {
-
     it('manage with -ve values', () => {
       expect(appController.add("-1, 2")).toBe(1);
     });
     it('if we have any charector other than , it should return undefined', () => {
       expect(appController.add("1, 2/")).toBe(undefined);
+    });
+  });
+
+  describe('step -- 3 (use custom separator)', () => {
+    it(' if input start with charector , it will considered as separator ', () => {
+      expect(appController.add("*1*2*3")).toBe(6);
+      expect(appController.add("**1**2**3")).toBe(6);
+    });
+
+    it(' if different separator used return undefined ', () => {
+      expect(appController.add("*1*2**3")).toBe(undefined);
     });
   });
 });
