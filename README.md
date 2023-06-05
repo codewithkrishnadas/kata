@@ -14,6 +14,8 @@ you will get your tasks in `kata.controller.spec` as new test cases , you can ru
  initially you will have all test **Failed**, and what you have to do is to make test **Passed** </p>
  <img src="https://lh3.googleusercontent.com/drive-viewer/AFGJ81pEranejjd3C2dVQteyb-gK4NsxsqdFDOuQHw3zNnlsUJUJ0F-RHnBMwpccLc9uxzLBYzWEa-YemDhv_Qf6CpLtYL3VRA=s1600" alt="codewithkrishnadas" />
 
+<p>After completing test case or if you stucked somewhere and need some assistance, you can push your branch and you can add your issue as a comment, so you will get reply from other developers</p>
+
 ## Installation
 
 ```bash
