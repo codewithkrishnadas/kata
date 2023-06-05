@@ -4,7 +4,7 @@ import { Controller, Get } from '@nestjs/common';
 export class AppController {
   constructor() {}
 
-  add(): number {
+  add(input: string): number {
     return 0;
   }
 }
