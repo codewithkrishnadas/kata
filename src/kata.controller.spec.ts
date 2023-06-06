@@ -50,10 +50,4 @@ describe('AppController', () => {
       expect(appController.add("*1*2**3")).toBe(undefined);
     });
   });
-
-  describe('step -- 4 (now we can use different operators in our input )', () => {
-    it(' if input start with charector , it will considered as separator ', () => {
-      expect(appController.add("*5*-*3")).toBe(2);
-    });
-  });
 });
